@@ -16,5 +16,8 @@ public class MyStack {
 	public INode peek() {
 		return  myLinkedList.head;
 	}
+	public INode pop() {
+		return myLinkedList.pop();
+	}
 
 }
